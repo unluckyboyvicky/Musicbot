@@ -52,7 +52,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ @Tamil_1080p_Movies_HD ]
 """
 
 
@@ -80,7 +80,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs")
+                            InlineKeyboardButton("Musics", url="https://t.me/Tamil_1080p_Movies_HD ")
                         ]
                     ]
                 )
@@ -103,7 +103,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Resume", callback_data="rs")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url='https://t.me/mwksongs')
+                            InlineKeyboardButton("Musics", url='https://t.me/Tamil_1080p_Movies_HD ')
                         ],
                     ]
                 )
@@ -127,7 +127,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs") 
+                            InlineKeyboardButton("Musics", url="https://t.me/Tamil_1080p_Movies_HD ") 
                         ],
                     ]
                 )
@@ -151,7 +151,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs")
+                            InlineKeyboardButton("Musics", url="https://t.me/Tamil_1080p_Movies_HD ")
                             
                     ],
                 ]
@@ -162,11 +162,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/Tamil_1080p_Movies_HD '),
+                InlineKeyboardButton('💬 Support', url='https://t.me/Tamil_New_Movies_RG ')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/unluckyboyvicky'),
+                InlineKeyboardButton('🎧 My Assistant ', url='https://t.me/telemoderators')
                 ],[
                 InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
             ]
